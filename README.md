@@ -2,21 +2,12 @@
 
 This is small boilerplate to kick off ExtJS 4 MVC Development
 
-## Prepare the project
-
-  1. Install NodeJS from (nodejs.org)[http://nodejs.org]
-  2. Go to the basedir and install the node dependencies: `npm install \[path_to/package.json\]`
-  3. Run the static server: `node server.js`
-  4. Start development :-) GLHF
-
 ## Repository dependencies
 
 Please note the software included in this repository might use different software licenses.
 Check their websites for more informations.
 
   1. ExtJS  4.1.0 GPL (sencha)[http://www.sencha.com]
-  2. NodeJS (nodejs.org)[http://nodejs.org]
-  3. Node static fileserver (node-static)[https://github.com/cloudhead/node-static]
   2. Package configuration for (NPM)[http://www.npmjs.org/]
 
 ### License MIT
