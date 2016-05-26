@@ -1,14 +1,14 @@
 ## ExtJS4 MVC Boilerplate
 
-This is small boilerplate to kick off ExtJS 4 MVC Development
+This is small boilerplate to kick off ExtJS 4 MVC Development for MC Haaglanden. 
+Fork from (piscis)[https://github.com/piscis/extjs4-mvc-boilerplate]. 
 
 ## Repository dependencies
 
 Please note the software included in this repository might use different software licenses.
 Check their websites for more informations.
 
-  1. ExtJS  4.1.0 GPL (sencha)[http://www.sencha.com]
-  2. Package configuration for (NPM)[http://www.npmjs.org/]
+  1. ExtJS (sencha)[http://www.sencha.com]
 
 ### License MIT
 (The MIT License)
