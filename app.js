@@ -1,5 +1,5 @@
 Ext.application({
-    name: 'BL',
+    name: 'NameSpace',
 
     appFolder: 'app',
         models: [
@@ -11,17 +11,11 @@ Ext.application({
         controllers: [
             // Controllers
         ],
-    launch: function() {
-        Ext.create('Ext.container.Viewport', {
-            layout: 'fit',
-            items: [
-                {
-                    xtype: 'panel',
-                    title: 'Title',
-                    html : 'Doe maar iets.'
-                }
-            ]
-        });
-    }
+        views: [
+            // Views
+        ],
+        launch: function() {
+            Ext.create('NameSpace.view.MainView');
+        }
 });
 

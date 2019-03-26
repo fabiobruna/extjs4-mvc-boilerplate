@@ -1,4 +1,4 @@
-Ext.define('Proto.view.Viewport', {
+Ext.define('NameSpace.view.Viewport', {
     extend: 'Ext.container.Viewport',
     layout: 'fit',
     

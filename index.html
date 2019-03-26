@@ -1,44 +1,46 @@
 <!DOCTYPE html>
+
 <html lang="nl-NL">
-	<head>
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
-    	<title>MCH/Bronovo - </title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-		<!-- Eigen MCH CSS -->
-		<link rel="stylesheet" href="css/mch.css">
+	<title>HMC - NAAM APP</title>>
 
-		<!-- Ext -->
+	<!-- Eigen MCH CSS -->
+	<link rel="stylesheet" href="css/mch.css">
 
-    	<!-- Css -->
-	    <link rel="stylesheet" href="/ext-js-gpl/packages/ext-theme-classic/build/resources/ext-theme-classic-all.css">
-    	<link rel="stylesheet" type="text/css" href="css/application.css" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="/ext-js-gpl/packages/ext-theme-classic/build/resources/ext-theme-classic-all.css">
+	<link rel="stylesheet" type="text/css" href="css/application.css" />
 
-    	<!-- Libs -->
-    	<script type="text/javascript" src="/ext-js-gpl/ext-all.js"></script>
-    	<script type="text/javascript" src="/ext-js-gpl/locale/ext-lang-nl.js"></script>
 
-    	<!-- Rest -->
+	<!-- LIBS -->
+	<?php echo $jsversie; ?>
+	<script type="text/javascript" src="/ext-js-gpl/locale/ext-lang-nl.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 
-		<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
-		<script src="app/bootstrap.js" type="text/javascript" ></script>
+	<script type="text/javascript">
+		var gENV = <?php echo "'".$env."'" ?>;
+	</script>
 
-		<!-- Piwik -->
-		<script type="text/javascript">
-		var pkBaseURL = (("https:" == document.location.protocol) ? "https://dwh.mchaaglanden.local/piwik/" : "http://dwh.mchaaglanden.local/piwik/");
-		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-		</script><script type="text/javascript">
-		try {
-		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-		piwikTracker.trackPageView();
-		piwikTracker.enableLinkTracking();
-		} catch( err ) {}
-		</script><noscript><p><img src="http://dwh.mchaaglanden.local/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-		<!-- End Piwik Tracking Code -->
+</head>
 
-	</head>
-	<body></body>
+<body>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113237209-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113237209-4');
+    </script>
+
+</body>
+
 </html>
